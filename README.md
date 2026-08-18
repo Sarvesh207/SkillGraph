@@ -1,6 +1,6 @@
 # SkillGraph
 
-SkillGraph is a graph-powered job discovery and recommendation engine built for the Wexa AI take-home assignment. It connects candidates, skills, technologies, jobs, companies, and industries to calculate exact job matches and visualize how candidates are linked to job opportunities.
+SkillGraph is a graph-powered job discovery and recommendation engine. It connects candidates, skills, technologies, jobs, companies, and industries to calculate precise job matches and visualize how talent links to open opportunities.
 
 ---
 
