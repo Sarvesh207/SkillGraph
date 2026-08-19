@@ -2,11 +2,11 @@
   "name": "skillgraph-backend",
   "version": "1.0.0",
   "description": "Backend API for SkillGraph using Node.js, Express, and CognoDB (Neo4j driver)",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "seed": "ts-node scripts/seed.ts",
     "test": "jest"
   },
