@@ -21,7 +21,7 @@ const SettingsPage: React.FC = () => (
 export const App: React.FC = () => {
   return (
     <ActiveCandidateProvider>
-      <Router>
+      <Router basename="/skillgraph">
         <DashboardLayout>
           <Routes>
             <Route path="/" element={<Dashboard />} />
