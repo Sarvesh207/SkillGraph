@@ -64,8 +64,8 @@ async function startServer() {
     console.log('Starting API server anyway in degraded mode (endpoints will return 503 DATABASE_UNAVAILABLE until resolved)...');
   }
 
-  // Only start the server locally if not in a serverless environment like Vercel
-  if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+  // Start the server (unless running as a Vercel serverless function)
+  if (!process.env.VERCEL) {
     app.listen(PORT, () => {
       console.log(`=================================================`);
       console.log(`SkillGraph backend running at http://localhost:${PORT}`);
